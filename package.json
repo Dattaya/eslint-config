@@ -17,6 +17,7 @@
   "bugs": {
     "url": "https://github.com/Dattaya/eslint-config/issues"
   },
+  "homepage": "https://github.com/Dattaya/eslint-config#readme",
   "files": [
     "/index.js",
     "/patch.js"
