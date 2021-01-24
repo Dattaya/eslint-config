@@ -4,8 +4,8 @@ Config for `@ohs`'s projects, based on `eslint-config-airbnb`, batteries include
 ## Install
 
 ```bash
-$ npm i @ohs/eslint-config
-$ yarn add @ohs/eslint-config
+$ npm i @ohs/eslint-config eslint
+$ yarn add @ohs/eslint-config eslint
 ```
 
 ## Usage

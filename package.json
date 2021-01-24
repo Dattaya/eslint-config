@@ -8,8 +8,15 @@
   "engines": {
     "node": ">=10"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dattaya/eslint-config.git"
+  },
   "author": "Yaroslav Kiliba",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dattaya/eslint-config/issues"
+  },
   "files": [
     "/index.js",
     "/patch.js"
