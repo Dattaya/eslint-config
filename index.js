@@ -5,8 +5,6 @@ const extendsArr = [
 ];
 
 const rules = {
-  '@typescript-eslint/no-explicit-any': 'off', // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md
-  '@typescript-eslint/no-use-before-define': ['warn'],
   'import/extensions': 'off',
   'max-len': ['error', {
     code: 130, ignoreComments: true, ignoreTrailingComments: true, ignoreUrls: true,
@@ -62,6 +60,10 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     rules: {
       ...rules,
+      'no-shadow': 'off',
+      '@typescript-eslint/no-shadow': ['error'],
+      '@typescript-eslint/no-explicit-any': 'off', // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md
+      '@typescript-eslint/no-use-before-define': ['warn'],
       '@typescript-eslint/explicit-function-return-type': [ // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
         'warn',
         {
