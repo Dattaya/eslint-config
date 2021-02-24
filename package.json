@@ -1,6 +1,6 @@
 {
   "name": "@ohs/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Eslint config for @ohs projects",
   "scripts": {
     "lint": "eslint --fix --ext .ts,.tsx,.js,.jsx test index.js patch.js"
