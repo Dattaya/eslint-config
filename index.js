@@ -60,6 +60,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     rules: {
       ...rules,
+      'consistent-return': 'off', // not that useful when `explicit-function-return-type` is turned on
       'no-shadow': 'off',
       '@typescript-eslint/no-shadow': ['error'],
       '@typescript-eslint/no-explicit-any': 'off', // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md
