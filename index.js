@@ -22,6 +22,7 @@ const rules = {
   'react/prop-types': 'off',
   'react/require-default-props': 'off',
   'react/state-in-constructor': 'off',
+  'react/function-component-definition': 'off',
 };
 
 module.exports = {

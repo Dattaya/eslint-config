@@ -1,3 +1,4 @@
+### Deprecated in favor of 'multi-tools' like `kcd-scripts` that have almost everything a library author might need.
 # eslint-config
 Config for `@ohs`'s projects, based on `eslint-config-airbnb`, batteries included
 
